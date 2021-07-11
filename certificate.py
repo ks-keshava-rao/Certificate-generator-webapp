@@ -26,7 +26,7 @@ def annotate(name):
 
     if st.button("View certificate"):
         st.image(original, caption=None, width=350, use_column_width=None, clamp=False, channels='BGR',output_format='PNG')
-        st.markdown(get_binary_file_downloader_html('Certificate.jpg', 'Certificate'), unsafe_allow_html=True)
+        st.markdown(get_binary_file_downloader_html ('original.jpg', 'Certificate'), unsafe_allow_html=True)
 
 if choice =="Get certificate":
     st.title("Get Your Certificate")
