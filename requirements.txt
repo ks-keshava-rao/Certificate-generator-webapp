@@ -1,0 +1,7 @@
+opencv-python
+streamlit
+os
+base64
+numpy
+sys
+PIL
