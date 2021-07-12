@@ -21,7 +21,7 @@ def get_binary_file_downloader_html(bin_file, file_label='File'):
 def annotate(name):
     certi = cv2.imread("pics\\img.png")
     original = cv2.putText(certi, name, (710, 790),font,   fontScale, (0, 0, 0), thickness=5)
-    cv2.imwrite("Certificate.jpg",original)
+    cv2.imwrite("output/Certificate.jpg",original)
 
 
     if st.button("View certificate"):
